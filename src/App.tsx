@@ -1,9 +1,11 @@
 import Header from "./components/header";
+import MainHome from "./components/main";
 
 function App() {
   return (
-    <div className="w-full h-screen">
+    <div className="">
       <Header />
+      <MainHome />
     </div>
   );
 }
